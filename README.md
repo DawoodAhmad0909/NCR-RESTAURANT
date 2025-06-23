@@ -192,7 +192,7 @@ ON m.item_id=oi.item_id
 GROUP BY Type;
 ```
 #### 17. Identify menu items that have never been ordered.
-``| sql
+``` sql
 SELECT m.*, COUNT(o.order_id) AS Total_orders
 FROM Menu_items m 
 LEFT JOIN Order_items oi 
@@ -219,7 +219,7 @@ FROM Orders
 GROUP BY Time_of_Day;
 ```
 #### 19. List all orders with special dietary requests (where special_notes is not NULL).
-``| sql
+``` sql
 SELECT o.* , oi.special_notes
 FROM Orders o 
 JOIN Order_items oi 
