@@ -1,0 +1,4 @@
+staff_id,name,position,hire_date,salary,contact,Total_orders
+101,"Raj Patel","Head Chef",2022-01-15,5200.00,9876543210,0
+103,"Amit Singh",Manager,2021-11-05,6500.00,7654321098,0
+104,"Neha Gupta","Sous Chef",2022-02-20,4200.00,6543210987,0

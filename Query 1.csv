@@ -1,0 +1,11 @@
+item_id,name,category,price,prep_time,is_veg
+210,"Non-Veg Thali",Combo,450.00,20,0
+209,"Veg Thali",Combo,350.00,15,1
+201,"Butter Chicken","Main Course",325.00,25,0
+204,"Chicken Biryani","Main Course",275.00,30,0
+208,"Chicken Tikka",Appetizer,225.00,18,0
+202,"Paneer Tikka",Appetizer,195.00,15,1
+203,"Dal Makhani","Main Course",185.00,20,1
+205,"Gulab Jamun",Dessert,95.00,10,1
+206,"Mango Lassi",Beverage,75.00,5,1
+207,"Tandoori Roti",Bread,25.00,7,1

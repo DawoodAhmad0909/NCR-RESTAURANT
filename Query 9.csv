@@ -1,0 +1,6 @@
+customer_id,name,phone,email,visits,Total_amount
+301,"Arun Kumar",9123456780,arun@email.com,3,1580.00
+302,"Meera Desai",8234567891,meera@email.com,5,1070.00
+303,"Rohan Iyer",7345678902,NULL,2,2080.00
+304,"Ananya Reddy",6456789013,ananya@email.com,1,1175.00
+305,"Kiran Nair",5567890124,kiran@email.com,4,1895.00

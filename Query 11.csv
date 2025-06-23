@@ -1,0 +1,2 @@
+order_id,customer_id,staff_id,order_time,total_amount,status
+403,303,105,"2023-06-16 12:45:00",1200.00,"In Progress"

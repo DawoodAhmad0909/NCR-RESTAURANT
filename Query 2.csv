@@ -1,0 +1,6 @@
+staff_id,name,position,hire_date,salary,contact
+101,"Raj Patel","Head Chef",2022-01-15,5200.00,9876543210
+102,"Priya Sharma",Waiter,2022-03-10,2200.00,8765432109
+103,"Amit Singh",Manager,2021-11-05,6500.00,7654321098
+104,"Neha Gupta","Sous Chef",2022-02-20,4200.00,6543210987
+105,"Vikram Joshi",Bartender,2022-04-01,2800.00,5432109876

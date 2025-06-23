@@ -1,0 +1,8 @@
+order_id,customer_id,staff_id,order_time,total_amount,status,special_notes
+401,301,102,"2023-06-15 19:30:00",850.00,Completed,"Less spicy"
+401,301,102,"2023-06-15 19:30:00",850.00,Completed,"Less sugar"
+403,303,105,"2023-06-16 12:45:00",1200.00,"In Progress","Extra raita"
+403,303,105,"2023-06-16 12:45:00",1200.00,"In Progress","Well done"
+404,304,102,"2023-06-16 13:30:00",525.00,Completed,"No onion no garlic"
+405,305,105,"2023-06-16 21:00:00",975.00,Completed,"Hot serving"
+410,305,102,"2023-06-19 20:15:00",920.00,Completed,"Extra gravy"

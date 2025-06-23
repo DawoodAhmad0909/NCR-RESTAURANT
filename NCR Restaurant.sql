@@ -13,11 +13,11 @@ CREATE TABLE Staff(
 SELECT * FROM Staff;
 
 INSERT INTO Staff VALUES
-(101, 'Raj Patel', 'Head Chef', '2022-01-15', 5200.00, '9876543210'),
-(102, 'Priya Sharma', 'Waiter', '2022-03-10', 2200.00, '8765432109'),
-(103, 'Amit Singh', 'Manager', '2021-11-05', 6500.00, '7654321098'),
-(104, 'Neha Gupta', 'Sous Chef', '2022-02-20', 4200.00, '6543210987'),
-(105, 'Vikram Joshi', 'Bartender', '2022-04-01', 2800.00, '5432109876');
+	(101, 'Raj Patel', 'Head Chef', '2022-01-15', 5200.00, '9876543210'),
+	(102, 'Priya Sharma', 'Waiter', '2022-03-10', 2200.00, '8765432109'),
+	(103, 'Amit Singh', 'Manager', '2021-11-05', 6500.00, '7654321098'),
+	(104, 'Neha Gupta', 'Sous Chef', '2022-02-20', 4200.00, '6543210987'),
+	(105, 'Vikram Joshi', 'Bartender', '2022-04-01', 2800.00, '5432109876');
 
 CREATE TABLE Menu_items(
     item_id    INT PRIMARY KEY,
@@ -31,16 +31,16 @@ CREATE TABLE Menu_items(
 SELECT * FROM Menu_items;
 
 INSERT INTO Menu_items VALUES
-(201, 'Butter Chicken', 'Main Course', 325.00, 25, FALSE),
-(202, 'Paneer Tikka', 'Appetizer', 195.00, 15, TRUE),
-(203, 'Dal Makhani', 'Main Course', 185.00, 20, TRUE),
-(204, 'Chicken Biryani', 'Main Course', 275.00, 30, FALSE),
-(205, 'Gulab Jamun', 'Dessert', 95.00, 10, TRUE),
-(206, 'Mango Lassi', 'Beverage', 75.00, 5, TRUE),
-(207, 'Tandoori Roti', 'Bread', 25.00, 7, TRUE),
-(208, 'Chicken Tikka', 'Appetizer', 225.00, 18, FALSE),
-(209, 'Veg Thali', 'Combo', 350.00, 15, TRUE),
-(210, 'Non-Veg Thali', 'Combo', 450.00, 20, FALSE);
+	(201, 'Butter Chicken', 'Main Course', 325.00, 25, FALSE),
+	(202, 'Paneer Tikka', 'Appetizer', 195.00, 15, TRUE),
+	(203, 'Dal Makhani', 'Main Course', 185.00, 20, TRUE),
+	(204, 'Chicken Biryani', 'Main Course', 275.00, 30, FALSE),
+	(205, 'Gulab Jamun', 'Dessert', 95.00, 10, TRUE),
+	(206, 'Mango Lassi', 'Beverage', 75.00, 5, TRUE),
+	(207, 'Tandoori Roti', 'Bread', 25.00, 7, TRUE),
+	(208, 'Chicken Tikka', 'Appetizer', 225.00, 18, FALSE),
+	(209, 'Veg Thali', 'Combo', 350.00, 15, TRUE),
+	(210, 'Non-Veg Thali', 'Combo', 450.00, 20, FALSE);
 
 CREATE TABLE Customers(
     customer_id  INT PRIMARY KEY,
@@ -53,12 +53,12 @@ CREATE TABLE Customers(
 SELECT * FROM Customers;
 
 INSERT INTO Customers VALUES
-(301, 'Arun Kumar', '9123456780', 'arun@email.com', 3),
-(302, 'Meera Desai', '8234567891', 'meera@email.com', 5),
-(303, 'Rohan Iyer', '7345678902', NULL, 2),
-(304, 'Ananya Reddy', '6456789013', 'ananya@email.com', 1),
-(305, 'Kiran Nair', '5567890124', 'kiran@email.com', 4);
-
+	(301, 'Arun Kumar', '9123456780', 'arun@email.com', 3),
+	(302, 'Meera Desai', '8234567891', 'meera@email.com', 5),
+	(303, 'Rohan Iyer', '7345678902', NULL, 2),
+	(304, 'Ananya Reddy', '6456789013', 'ananya@email.com', 1),
+	(305, 'Kiran Nair', '5567890124', 'kiran@email.com', 4);
+	
 CREATE TABLE Orders(
     order_id      INT PRIMARY KEY,
     customer_id   INT,
@@ -73,16 +73,16 @@ CREATE TABLE Orders(
 SELECT * FROM Orders;
 
 INSERT INTO Orders VALUES
-(401, 301, 102, '2023-06-15 19:30:00', 850.00, 'Completed'),
-(402, 302, 102, '2023-06-15 20:15:00', 650.00, 'Completed'),
-(403, 303, 105, '2023-06-16 12:45:00', 1200.00, 'In Progress'),
-(404, 304, 102, '2023-06-16 13:30:00', 525.00, 'Completed'),
-(405, 305, 105, '2023-06-16 21:00:00', 975.00, 'Completed'),
-(406, 301, 102, '2023-06-17 20:30:00', 730.00, 'Completed'),
-(407, 302, 105, '2023-06-18 13:15:00', 420.00, 'Cancelled'),
-(408, 303, 102, '2023-06-18 19:45:00', 880.00, 'In Progress'),
-(409, 304, 105, '2023-06-19 12:30:00', 650.00, 'Completed'),
-(410, 305, 102, '2023-06-19 20:15:00', 920.00, 'Completed');
+	(401, 301, 102, '2023-06-15 19:30:00', 850.00, 'Completed'),
+	(402, 302, 102, '2023-06-15 20:15:00', 650.00, 'Completed'),
+	(403, 303, 105, '2023-06-16 12:45:00', 1200.00, 'In Progress'),
+	(404, 304, 102, '2023-06-16 13:30:00', 525.00, 'Completed'),
+	(405, 305, 105, '2023-06-16 21:00:00', 975.00, 'Completed'),
+	(406, 301, 102, '2023-06-17 20:30:00', 730.00, 'Completed'),
+	(407, 302, 105, '2023-06-18 13:15:00', 420.00, 'Cancelled'),
+	(408, 303, 102, '2023-06-18 19:45:00', 880.00, 'In Progress'),
+	(409, 304, 105, '2023-06-19 12:30:00', 650.00, 'Completed'),
+	(410, 305, 102, '2023-06-19 20:15:00', 920.00, 'Completed');
 
 CREATE TABLE Order_items(
     order_item_id  INT PRIMARY KEY,
@@ -97,77 +97,65 @@ CREATE TABLE Order_items(
 SELECT * FROM Order_items;
 
 INSERT INTO Order_items VALUES
-(501, 401, 201, 2, 'Less spicy'),
-(502, 401, 207, 4, NULL),
-(503, 401, 206, 2, 'Less sugar'),
-(504, 402, 202, 1, NULL),
-(505, 402, 203, 1, NULL),
-(506, 402, 207, 2, NULL),
-(507, 403, 204, 3, 'Extra raita'),
-(508, 403, 208, 2, 'Well done'),
-(509, 403, 210, 1, NULL),
-(510, 404, 209, 1, 'No onion no garlic'),
-(511, 404, 206, 1, NULL),
-(512, 405, 201, 1, NULL),
-(513, 405, 202, 2, NULL),
-(514, 405, 205, 2, 'Hot serving'),
-(515, 406, 203, 1, NULL),
-(516, 406, 207, 3, NULL),
-(517, 407, 206, 4, NULL),
-(518, 408, 204, 2, NULL),
-(519, 408, 205, 1, NULL),
-(520, 409, 202, 1, NULL),
-(521, 410, 201, 1, 'Extra gravy');
+	(501, 401, 201, 2, 'Less spicy'),
+	(502, 401, 207, 4, NULL),
+	(503, 401, 206, 2, 'Less sugar'),
+	(504, 402, 202, 1, NULL),
+	(505, 402, 203, 1, NULL),
+	(506, 402, 207, 2, NULL),
+	(507, 403, 204, 3, 'Extra raita'),
+	(508, 403, 208, 2, 'Well done'),
+	(509, 403, 210, 1, NULL),
+	(510, 404, 209, 1, 'No onion no garlic'),
+	(511, 404, 206, 1, NULL),
+	(512, 405, 201, 1, NULL),
+	(513, 405, 202, 2, NULL),
+	(514, 405, 205, 2, 'Hot serving'),
+	(515, 406, 203, 1, NULL),
+	(516, 406, 207, 3, NULL),
+	(517, 407, 206, 4, NULL),
+	(518, 408, 204, 2, NULL),
+	(519, 408, 205, 1, NULL),
+	(520, 409, 202, 1, NULL),
+	(521, 410, 201, 1, 'Extra gravy');
 
--- 1. List all menu items with their prices, sorted by most expensive first.
 SELECT * FROM Menu_items
 ORDER BY price DESC;
 
--- 2. Show all staff members with their positions and hire dates.
 SELECT * FROM Staff;
 
--- 3. Display all orders placed during dinner hours (after 6 PM).
 SELECT *,HOUR(order_time) AS Hour FROM Orders
 WHERE HOUR(order_time)>=18;
 
- -- 4. Find all vegetarian main course items.
 SELECT * FROM Menu_items 
 WHERE category='Main Course' AND is_veg=TRUE;
 
- -- 5. List appetizers that take less than 20 minutes to prepare.
 SELECT * FROM Menu_items
 WHERE category='Appetizer' 
 AND prep_time <20;
 
--- 6. Show the average price of items in each category.
 SELECT category,ROUND(AVG(price),2) AS Average_Price FROM Menu_items
 GROUP BY category
 ORDER BY category;
 
--- 7. Identify customers who haven't provided an email address.
 SELECT * FROM Customers
 WHERE email IS NULL;
 
--- 8. Find customers who have visited more than 3 times.
 SELECT * FROM Customers
 WHERE visits>3;
 
--- 9. Show the total amount spent by each customer.
 SELECT c.*, SUM(o.total_amount) AS Total_amount
 FROM Customers c 
 LEFT JOIN Orders o 
 ON o.customer_id=c.customer_id
 GROUP BY c.customer_id;
  
--- 10. Display all incomplete orders (status = 'In Progress' or 'Cancelled').
 SELECT * FROM Orders
 WHERE status IN ('Cancelled','In Progress');
 
--- 11. Find orders with a total amount exceeding ₹1000.
 SELECT * FROM Orders 
 WHERE total_amount>1000.0;
 
--- 12. Show the most frequently ordered menu item (by quantity).
 SELECT m.*, SUM(oi.quantity) AS Total_orders
 FROM Menu_items m 
 LEFT JOIN Order_items oi 
@@ -176,14 +164,12 @@ GROUP BY m.item_id
 ORDER BY Total_orders DESC 
 LIMIT 2;
 
--- 13. Calculate total sales handled by each staff member.
 SELECT s.* ,SUM(o.total_amount) AS Total_orders
 FROM Staff s 
 LEFT JOIN Orders o 
 ON s.staff_id=o.staff_id
 GROUP BY s.staff_id;
 
--- 14. Find staff members who haven't processed any orders.
 SELECT s.* ,COUNT(o.order_id) AS Total_orders
 FROM Staff s 
 LEFT JOIN Orders o 
@@ -191,13 +177,11 @@ ON s.staff_id=o.staff_id
 GROUP BY s.staff_id
 HAVING Total_orders=0;
 
--- 15. Show the busiest order time (hour with most orders).
 SELECT HOUR(order_time) Hour, COUNT(*) AS Total_Orders FROM Orders
 GROUP BY Hour 
 ORDER BY Total_Orders DESC
 LIMIT 1;
 
--- 16. Calculate the percentage of vegetarian vs non-vegetarian orders.
 SELECT 
 	CASE 
 		WHEN m.is_veg=TRUE THEN 'Vegetarion'
@@ -210,7 +194,6 @@ JOIN Order_items oi
 ON m.item_id=oi.item_id
 GROUP BY Type;
 
--- 17. Identify menu items that have never been ordered.
 SELECT m.*, COUNT(o.order_id) AS Total_orders
 FROM Menu_items m 
 LEFT JOIN Order_items oi 
@@ -220,7 +203,6 @@ ON o.order_id=oi.order_id
 GROUP BY m.item_id
 HAVING Total_orders=0;
 
--- 18. Show the average order value by time of day (lunch vs dinner).
 SELECT
 	CASE 
 		WHEN HOUR(order_time) IN(4,5,6) THEN 'Early Breakfast'
@@ -235,14 +217,12 @@ SELECT
 FROM Orders
 GROUP BY Time_of_Day;
 
--- 19. List all orders with special dietary requests (where special_notes is not NULL).
 SELECT o.* , oi.special_notes
 FROM Orders o 
 JOIN Order_items oi 
 ON oi.order_id=o.order_id
 WHERE oi.special_notes IS NOT NULL;
 
--- 20. Find the most common special request note.
 SELECT special_notes, COUNT(*) AS Total_Requests FROM Order_items
 WHERE special_notes IS NOT NULL
 GROUP BY special_notes
